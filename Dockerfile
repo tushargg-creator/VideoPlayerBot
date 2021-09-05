@@ -6,8 +6,8 @@ RUN apt install git curl python3-pip ffmpeg -y
 RUN cd /
 RUN git clone https://github.com/tushargg-creator/Videoxd.git
 
-RUN cd VideoPlayerBot
-WORKDIR /VideoPlayerBot
+RUN cd Videoxd
+WORKDIR /Videoxd
 
 RUN pip3 install -U pip
 RUN pip3 install -U -r requirements.txt
