@@ -1,6 +1,6 @@
 """
 VideoPlayerBot, Telegram Video Chat Bot
-Copyright (c) 2021  Asm Safone <https://github.com/AsmSafone>
+Copyright (c) 2021 
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
@@ -43,7 +43,7 @@ HELP_TEXT = """
 \u2022 `/endstream` - end current stream & left vc
 
 © **Powered By** : 
-**@AsmSafone | @SafoTheBot** 👑
+**@agastyaopxd | @trustmeiamliar** 👑
 """
 
 
@@ -52,12 +52,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/trustmeiamliar"),
+                InlineKeyboardButton("OWNER", url="https://t.me/agastyaopxd"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("CHATTING GROUP", url="https://t.me/Bad_Vibes_sucks"),
+                InlineKeyboardButton("QUOTE", url="https://t.me/Quoteforliife"),
             ],
             [
                 InlineKeyboardButton("BACK HOME", callback_data="home"),
@@ -79,12 +79,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("SEARCH INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/trustmeiamliar"),
+                InlineKeyboardButton("OWNER", url="https://t.me/agastyaopxd"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("CHATTING GROUP", url="https://t.me/Bad_Vibes_sucks"),
+                InlineKeyboardButton("QUOTE", url="https://t.me/Quoteforliife"),
             ],
             [
                 InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
@@ -114,12 +114,12 @@ async def start(client, message):
                 InlineKeyboardButton("SEARCH INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/trustmeiamliar"),
+                InlineKeyboardButton("OWNER", url="https://t.me/agastyaopxd"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("CHATTING GROUP", url="https://t.me/Bad_Vibes_sucks"),
+                InlineKeyboardButton("QUOTE", url="https://t.me/Quoteforliife"),
             ],
             [
                 InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
@@ -132,12 +132,12 @@ async def start(client, message):
 async def help(client, message):
     buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/trustmeiamliar"),
+                InlineKeyboardButton("OWNER", url="https://t.me/agastyaopxd"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("CHATTING GROUP", url="https://t.me/Bad_Vibes_sucks"),
+                InlineKeyboardButton("QUOTE", url="https://t.me/Quoteforliife"),
             ],
             [
                 InlineKeyboardButton("BACK HOME", callback_data="home"),
